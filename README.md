@@ -160,4 +160,4 @@ cv_audvid/
   - Video: 8 uniformly sampled frames per clip  
 - Labels: Event categories (subset)
 
-**Note:** Full dataset download is not included due to size and licensing.
+**Note:** Full dataset download is not included due to size.
