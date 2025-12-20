@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual env
+venv/
+.env/
+
+# Data
+data/
+*.wav
+*.mp4
+*.jpg
+
+# Checkpoints 
+checkpoints/*.pt
+
+# OS
+.DS_Store
