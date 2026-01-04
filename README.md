@@ -1,8 +1,4 @@
-Audio-Visual Event Recognition with Modality Attention
-
----
-
-## Overview
+## Audio-Visual Event Recognition with Modality Attention
 
 This project implements an end-to-end multimodal learning system for audio-visual event recognition, combining raw audio waveforms and video frames using a learned modality-attention fusion mechanism.
 
