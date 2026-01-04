@@ -1,4 +1,4 @@
-🎧🎥 Audio-Visual Event Recognition with Modality Attention
+Audio-Visual Event Recognition with Modality Attention
 
 ---
 
@@ -13,7 +13,7 @@ Key results are reported below.
 
 ---
 
-## 🚀 Key Contributions
+## Key Contributions
 
 - Late fusion architecture with explicit audio–video attention  
 - Lightweight CNN audio encoder (raw waveform)  
@@ -24,7 +24,7 @@ Key results are reported below.
 
 ---
 
-## 🧠 Model Overview
+## Model Overview
 
 ### Architecture
 
@@ -44,7 +44,7 @@ Both embeddings are fused using **Modality Attention**, followed by a classifier
 
 ---
 
-## 🔍 Modality Attention (Core Idea)
+## Modality Attention (Core Idea)
 
 Instead of naively concatenating audio and video features, the model learns attention weights:
 
@@ -61,7 +61,7 @@ This enables:
 
 ---
 
-## 📊 Experimental Results
+## Experimental Results
 
 ### Training (VGGSound sample subset)
 
@@ -80,7 +80,7 @@ For visually distinctive events, the model naturally prefers video.
 
 ---
 
-## 🧪 Robustness Evaluation (Key Result)
+## Robustness Evaluation (Key Result)
 
 The trained model was evaluated under modality corruption.
 
@@ -108,7 +108,7 @@ This confirms **true multimodal robustness**, not hardcoded fusion.
 
 ---
 
-## 🔮 Inference Example
+## Inference Example
 
 Prediction on a real video clip:
 
@@ -124,7 +124,7 @@ The model:
 
 ---
 
-## 📁 Repository Structure (High Level)
+## Repository Structure (High Level)
 
 ```
 cv_audvid/
@@ -151,7 +151,7 @@ cv_audvid/
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 - Source: VGGSound  
 - Data: YouTube videos (10s clips)  
